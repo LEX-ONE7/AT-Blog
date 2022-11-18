@@ -21,14 +21,15 @@ const card = (title, description) => `
     'https://jsonplaceholder.typicode.com/posts'
   ).then((response) => response.json());
   console.log(apiData);
+  const myData = [{ title: 'le titre ', description: 'ze description' }];
 
   let cardList = '';
 
-  apiData.forEach((post) => {
+  myData.forEach((post) => {
     console.log(post.title);
     document.getElementById('card-list').innerHTML += card(
       post.title,
-      post.body
+      post.description
     );
   });
 })();
