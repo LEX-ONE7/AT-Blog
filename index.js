@@ -37,6 +37,6 @@ const card = `
 
   apiData.forEach((post) => {
     console.log(post.title);
-    document.getElementById('test').innerHTML += '<h2>' + post.title + '</h2>';
+    document.getElementById('card-list').innerHTML += card;
   });
 })();
