@@ -25,9 +25,37 @@ const card = (title, description, image) => `
   console.log(apiData);
   const myData = [
     {
-      title: ' Titre 1 ',
+      title: ' Lundi ',
       description: 'Description 1',
-      image: 'https://picsum.photos/id/0/1200/600',
+      image: 'https://picsum.photos/id/1/1200/600',
+    },
+    {
+      title: ' Mardi ',
+
+      description: 'Description 2',
+
+      image: 'https://picsum.photos/id/2/1200/600',
+    },
+    {
+      title: ' Mercredi ',
+
+      description: 'Description 3',
+
+      image: 'https://picsum.photos/id/3/1200/600',
+    },
+    {
+      title: ' Jeudi ',
+
+      description: 'Description 4',
+
+      image: 'https://picsum.photos/id/4/1200/600',
+    },
+    {
+      title: ' Vendredi ',
+
+      description: 'Description 5',
+
+      image: 'https://picsum.photos/id/5/1200/600',
     },
   ];
 
