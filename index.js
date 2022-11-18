@@ -33,8 +33,10 @@ const card = `
   const dataDiv = document.getElementById('data');
   dataDiv.innerHTML = card;
 
+  let cardList = '';
 
-  let cardList ="<p>Coucou</p>";
-  document.getElementById('test').innerHTML = cardList;
+  apiData.forEach((post) => {
+    console.log(post.title);
+    document.getElementById('test').innerHTML += '<h2>' + post.title + '</h2>';
+  });
 })();
-
