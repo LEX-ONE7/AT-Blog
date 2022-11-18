@@ -25,35 +25,40 @@ const card = (title, description, image) => `
   console.log(apiData);
   const myData = [
     {
-      title: ' Lundi ',
-      description: 'Description 1',
+      title: ' Univers du WEB ',
+      description:
+        "(14/11) <br> Initiation aux différents langages : Html, Css, Javascript.<br> On commence à coder avec un édtieur de textes (codesanbox) qui n'a pas enregistré mon travail",
       image: 'https://picsum.photos/id/1/1200/600',
     },
     {
-      title: ' Mardi ',
+      title: ' Templates ',
 
-      description: 'Description 2',
+      description:
+        "(15/11) <br> Javascript (permet d'animer une page Web) : cube qui change de couleurs",
 
       image: 'https://picsum.photos/id/2/1200/600',
     },
     {
-      title: ' Mercredi ',
+      title: ' Framework Bootstrap ',
 
-      description: 'Description 3',
+      description:
+        '(16/11) <br> Morpion sans Internet car il y a une coupure de courant. ',
 
       image: 'https://picsum.photos/id/3/1200/600',
     },
     {
-      title: ' Jeudi ',
+      title: " Création d'un Portfolio et d'un Blog ",
 
-      description: 'Description 4',
+      description:
+        "(17/11) <br> On change d'éditeur de texte, on passe à Stackblitz pour créer un Portfolio <br> Nouveau format dans Javascript : le json",
 
       image: 'https://picsum.photos/id/4/1200/600',
     },
     {
-      title: ' Vendredi ',
+      title: ' Fin du Blog ',
 
-      description: 'Description 5',
+      description:
+        " (18/11) <br> Insertion d'objet et de tableaux dans le Javascript pour afficher des cartes sur le blog",
 
       image: 'https://picsum.photos/id/5/1200/600',
     },
