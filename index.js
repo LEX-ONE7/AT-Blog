@@ -1,4 +1,4 @@
-const card = (title, description, image) => `
+const card = (title, description, date, image) => `
   <div class="col-lg-4 col-sm-12">
     <div class="card mb-5 shadow-sm">
       <img src=${image} class="img-fluid" />
@@ -6,6 +6,7 @@ const card = (title, description, image) => `
       <div class="card-body">
         <div class="card-title">
           <h2>${title}</h2>
+          <h3>${date}</h3>
         </div>
         <div class="card-text">
           <p>${description}</p>
@@ -27,7 +28,8 @@ const card = (title, description, image) => `
     {
       title: ' Le WEB ',
       description:
-        'Lundi 14 Novembre <br><br> Initiation aux différents langages : Html, Css, Javascript.<br> Codage avec un édtieur de textes (codesanbox) et affichage sur un navigateur...',
+        'Initiation aux différents langages : Html, Css, Javascript.<br> Codage avec un édtieur de textes (codesanbox) et affichage sur un navigateur...',
+      date: ' Lundi 14 Novembre ',
       image:
         'https://www.shutterstock.com/image-vector/web-development-coding-programming-responsive-260nw-1449924503.jpg',
     },
@@ -73,6 +75,7 @@ const card = (title, description, image) => `
     document.getElementById('card-list').innerHTML += card(
       post.title,
       post.description,
+      post.date,
       post.image
     );
   });
