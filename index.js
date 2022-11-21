@@ -25,18 +25,20 @@ const card = (title, description, image) => `
   console.log(apiData);
   const myData = [
     {
-      title: ' Univers du WEB ',
+      title: ' Le WEB ',
       description:
-        '(14/11) <br><br> Initiation aux différents langages : Html, Css, Javascript.<br> On commence à coder avec un édtieur de textes (codesanbox)...',
-      image: 'https://picsum.photos/id/357/1200/600',
+        'Lundi 14 Novembre <br><br> Initiation aux différents langages : Html, Css, Javascript.<br> Codage avec un édtieur de textes (codesanbox) et affichage sur un navigateur...',
+      image:
+        'https://www.shutterstock.com/image-vector/web-development-coding-programming-responsive-260nw-1449924503.jpg',
     },
     {
-      title: ' Templates ',
+      title: ' Framework et Templates ',
 
       description:
-        "(15/11) <br><br> Javascript (permet d'animer une page Web) : cube qui change de couleurs",
+        "Mardi 15 Novembre <br><br> Bootstrap est un framework de frontend gratuit : C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option ",
 
-      image: 'https://picsum.photos/id/72/1200/600',
+      image:
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYf_EFgYOiTOITVogyAQBrrRW-Z49Xpb6JCg&usqp=CAU',
     },
     {
       title: ' Framework Bootstrap ',
