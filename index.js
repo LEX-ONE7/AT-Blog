@@ -38,6 +38,7 @@ const card = (title, description, date, image) => `
 
       description:
         "Mardi 15 Novembre <br><br> Bootstrap est un framework de frontend gratuit : C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option ",
+      date: ' Mardi 15 Novembre ',
 
       image:
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYf_EFgYOiTOITVogyAQBrrRW-Z49Xpb6JCg&usqp=CAU',
@@ -47,6 +48,7 @@ const card = (title, description, date, image) => `
 
       description:
         '(16/11) <br><br> Coupure de courant : Morpion sans Internet.<br> Bootstrap est une bibliothéque gratuite qui fournit des modèles pour le développement de sites Web',
+      date: ' Mercredi 16 Novembre ',
 
       image: 'https://picsum.photos/id/823/1200/600',
     },
@@ -55,6 +57,7 @@ const card = (title, description, date, image) => `
 
       description:
         "(17/11) <br><br> On change d'éditeur de texte, on passe à Stackblitz pour créer un Portfolio <br> Nouveau format dans Javascript : le json",
+      date: ' Jeudi 17 Novembre ',
 
       image: 'https://picsum.photos/id/94/1200/600',
     },
@@ -63,6 +66,7 @@ const card = (title, description, date, image) => `
 
       description:
         " (18/11) <br><br> Insertion d'objet et de tableaux dans le Javascript pour afficher des cartes sur le blog. <br> De nouvelles syntaxes telles que : let cardList, myData.forEach...",
+      date: ' Vendredi 18 Novembre ',
 
       image: 'https://picsum.photos/id/15/1200/600',
     },
@@ -79,4 +83,19 @@ const card = (title, description, date, image) => `
       post.image
     );
   });
+})();
+
+(async () => {
+  await fetch(
+    'https://api.airtable.com/v0/appxHQIGj9Aa2gmHl/tblUyor4igSb5m6mE',
+    {
+      headers: {
+        Authorization: 'Bearer keyppkeCDEzJh47Vt',
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+      },
+    }
+  )
+    .then((response) => response.json())
+    .then((json) => console.log(json));
 })();
