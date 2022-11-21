@@ -20,6 +20,25 @@ const card = (title, description, date, image) => `
 `;
 
 (async () => {
+  let response = await fetch(
+    'https://api.airtable.com/v0/appxHQIGj9Aa2gmHl/tblUyor4igSb5m6mE',
+
+    {
+      headers: {
+        Authorization: 'Bearer keyppkeCDEzJh47Vt',
+
+        'Content-Type': 'application/json',
+
+        'Access-Control-Allow-Origin': '*',
+      },
+    }
+  )
+    .then((response) => response.json())
+
+    .then((json) => console.log(json));
+})();
+
+(async () => {
   const apiData = await fetch(
     'https://jsonplaceholder.typicode.com/posts'
   ).then((response) => response.json());
@@ -83,19 +102,4 @@ const card = (title, description, date, image) => `
       post.image
     );
   });
-})();
-
-(async () => {
-  await fetch(
-    'https://api.airtable.com/v0/appxHQIGj9Aa2gmHl/tblUyor4igSb5m6mE',
-    {
-      headers: {
-        Authorization: 'Bearer keyppkeCDEzJh47Vt',
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*',
-      },
-    }
-  )
-    .then((response) => response.json())
-    .then((json) => console.log(json));
 })();
