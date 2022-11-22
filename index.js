@@ -1,25 +1,25 @@
 const card = (title, description, date, image) => `
   <div class="col-lg-4 col-sm-12">
     <div class="card mb-5 shadow-sm ">
-    <span class="border border-primary ">
-      <img src=${image} class="img-fluid" />
+      <div class="card border-primary mb-3">
+        <img src=${image} class="img-fluid" />
 
       
-        <div class="card-body">
+          <div class="card-body">
         
       
           <div class="card-title">
             <h2 class="text-decoration-underline">${title}</h2>
             <h3 class="display-5 fs-5">${date}</h3>
           </div>
-        <div class="card-text">
-          <p>${description}</p>
-        </div>
-        <a href="#" class="btn btn-outline-info rounded-0 float-end"> Read More </a>
+          <div class="card-text">
+            <p>${description}</p>
+          </div>
+            <a href="#" class="btn btn-outline-info rounded-0 float-end"> Read More </a>
         
-        </div>
+          
+         </div>
       </div>
-    </span>
     </div>
   </div>
 `;
