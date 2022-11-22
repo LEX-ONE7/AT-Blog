@@ -60,7 +60,7 @@ const card = (title, description, date, image) => `
       date: ' Mardi 15 Novembre ',
 
       image:
-        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYf_EFgYOiTOITVogyAQBrrRW-Z49Xpb6JCg&usqp=CAU',
+        'https://blog.templatetoaster.com/wp-content/uploads/2020/05/Bootstrap-5-Facebbok.png',
     },
     {
       title: ' Framework Bootstrap ',
