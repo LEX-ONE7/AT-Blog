@@ -1,9 +1,10 @@
 const card = (title, description, date, image) => `
   <div class="col-lg-4 col-sm-12">
     <div class="card mb-5 shadow-sm ">
+    <span class="border border-primary ">
       <img src=${image} class="img-fluid" />
 
-      <span class="border border-primary ">
+      
         <div class="card-body">
         
       
@@ -18,7 +19,7 @@ const card = (title, description, date, image) => `
         
         </div>
       </div>
-      </span>
+    </span>
     </div>
   </div>
 `;
