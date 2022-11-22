@@ -3,8 +3,9 @@ const card = (title, description, date, image) => `
     <div class="card mb-5 shadow-sm ">
       <img src=${image} class="img-fluid" />
 
-      <span class="border border-primary">
+      <span class="border border-primary ">
         <div class="card-body">
+        
       
           <div class="card-title">
             <h2 class="text-decoration-underline">${title}</h2>
@@ -83,7 +84,7 @@ const card = (title, description, date, image) => `
       date: ' Jeudi 17 Novembre ',
 
       image:
-        'https://i.pinimg.com/736x/63/fa/f1/63faf161c069249a0b9ff7ac01d91616.jpg',
+        'https://th.bing.com/th/id/R.e91cf4b533d7fc90b5b8c35469c04f52?rik=x8h9RFR4KTtj1w&pid=ImgRaw&r=0',
     },
     {
       title: " Création d'un Blog ",
@@ -92,7 +93,8 @@ const card = (title, description, date, image) => `
         "Insertion d'objet et de tableaux dans le Javascript pour afficher des cartes sur le blog. <br> De nouvelles syntaxes telles que : let cardList, const myData, forEach...",
       date: ' Vendredi 18 Novembre ',
 
-      image: 'https://picsum.photos/id/15/1200/600',
+      image:
+        'https://cpothemes.com/wp-content/uploads/2012/02/illustrious-01-475x325.jpg',
     },
   ];
 
