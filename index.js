@@ -50,7 +50,7 @@ const card = (title, description, date, image) => `
         'Initiation aux différents langages : Html, Css, Javascript.<br> Codage avec un édtieur de textes (codesanbox) et affichage sur un navigateur...',
       date: ' Lundi 14 Novembre ',
       image:
-        'https://www.shutterstock.com/image-vector/web-development-coding-programming-responsive-260nw-1449924503.jpg',
+        'https://th.bing.com/th/id/R.55a7cc0600e543951cd3aea85fe6e383?rik=jZ6b%2fb38p4a1RA&pid=ImgRaw&r=0',
     },
     {
       title: ' Framework et Templates ',
