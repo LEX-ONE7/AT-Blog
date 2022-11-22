@@ -1,14 +1,14 @@
 const card = (title, description, date, image) => `
   <div class="col-lg-4 col-sm-12">
-    <div class="card mb-5 shadow-sm">
+    <div class="card mb-5 shadow-sm ">
       <img src=${image} class="img-fluid" />
 
       <span class="border border-primary">
         <div class="card-body">
       
           <div class="card-title">
-            <h2>${title}</h2>
-            <h3 class="display-5 h-6 fs-5">${date}</h3>
+            <h2 class="text-decoration-underline">${title}</h2>
+            <h3 class="display-5 fs-5">${date}</h3>
           </div>
         <div class="card-text">
           <p>${description}</p>
@@ -53,7 +53,7 @@ const card = (title, description, date, image) => `
         'Initiation aux différents langages : Html, Css, Javascript.<br> Codage avec un édtieur de textes (codesanbox), affichage sur un navigateur...',
       date: ' Lundi 14 Novembre ',
       image:
-        'https://th.bing.com/th/id/R.55a7cc0600e543951cd3aea85fe6e383?rik=jZ6b%2fb38p4a1RA&pid=ImgRaw&r=0',
+        'https://pic.clubic.com/v1/images/1709696/raw?width=1200&fit=max&hash=b66a110eab5bfb759d547630534eb1be823a7b82',
     },
     {
       title: ' Framework et Templates ',
@@ -63,7 +63,7 @@ const card = (title, description, date, image) => `
       date: ' Mardi 15 Novembre ',
 
       image:
-        'https://blog.templatetoaster.com/wp-content/uploads/2020/05/Bootstrap-5-Facebbok.png',
+        'https://techibhai.com/wp-content/uploads/2019/12/Web-Application-Frameworks-1.png',
     },
     {
       title: ' Framework Bootstrap ',
@@ -73,16 +73,17 @@ const card = (title, description, date, image) => `
       date: ' Mercredi 16 Novembre ',
 
       image:
-        'https://blog.templatetoaster.com/wp-content/uploads/2020/05/Bootstrap-5-Facebbok.png',
+        'https://www.bootstrapdash.com/wp-content/uploads/2019/10/one-host-1.png',
     },
     {
       title: " Création d'un Portfolio ",
 
       description:
-        'Stackblitz pour créer un Portfolio <br> Nouveau format dans Javascript : le json',
+        "Utilisation de l'éditeur de textes Stackblitz, pour un Portfolio personnel<br> Une nouvelle extension dans Javascript : le json, un format utilisé pour structurer et échanger des données...",
       date: ' Jeudi 17 Novembre ',
 
-      image: 'https://picsum.photos/id/94/1200/600',
+      image:
+        'https://i.pinimg.com/736x/63/fa/f1/63faf161c069249a0b9ff7ac01d91616.jpg',
     },
     {
       title: " Création d'un Blog ",
